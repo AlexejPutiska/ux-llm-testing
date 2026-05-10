@@ -1,7 +1,5 @@
 # UX Testing with Large Language Models
 
-Web application for the bachelor's thesis **"Improving User Experience Using Large Language Models"**.
-
 The system allows creating and running three types of UX tests (preference test, first-click test, feedback test) using screenshots. Tests are executed by simulating user responses via a large language model (OpenAI API). Results are stored in a database and can be reviewed in the test history.
 
 ---
@@ -43,7 +41,7 @@ web/
 
 ## Database Setup
 
-The database runs in a Docker container. Make sure **Docker Desktop is installed and running** before proceeding — you can download it at [docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
+The database runs in a Docker container. Make sure **Docker Desktop is installed and running** before proceeding.
 
 Start the database with:
 
